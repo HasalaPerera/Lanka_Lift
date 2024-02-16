@@ -1,34 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title> Lanka lift </title>
-        <link rel="stylesheet" href="log_C.css">
-    </head>
-    <body>
-        <div class="main">
-            <dev class="navbar">
-                <div class="icon">
-                    <img src="images/logo.png" alt="logo" class="logo">
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="contact.html">CONTACTS</a></li>
-                        <li><a href="vehicals.html">VEHICALS</a></li>
-                        <li><a href="servises.html">SERVISES</a></li>
-                        <div class="dropdown">
-                            <button class="dropbtn">LOGIN
-                              <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="log_D.html">AS Driver</a>
-                                <a href="log_C.html">As Customer</a>
-                            </div>
-                          </div>
-                    </ul>
-                </div>
-            </dev>
-        </div>
-    </body>
+
+<html> 
+
+<head> 
+	<title>Driver  Login</title> 
+	<link rel="stylesheet" href="style.css">
+</head> 
+
+<body> 
+	<div class="main"> 
+		<h1>Driver  Login</h1> 
+		<h3>Enter your login credentials</h3> 
+		<form action=""> 
+			<label for="first"> 
+				Username: 
+			</label> 
+			<input type="text"
+				id="first"
+				name="first"
+				placeholder="Enter your Username" required> 
+
+			<label for="password"> 
+				Password: 
+			</label> 
+			<input type="password"
+				id="password"
+				name="password"
+				placeholder="Enter your Password" required> 
+
+			<div class="wrap"> 
+				<button type="submit"
+						onclick="solve()"> 
+					Login 
+				</button>
+			</div> 
+		</form> 
+		<p>Not registered? 
+			<a href="#"
+			style="text-decoration-color: black;"> 
+				Sign up 
+			</a> 
+		</p> 
+	</div> 
+</body> 
 </html>
+
