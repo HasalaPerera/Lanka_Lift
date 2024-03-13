@@ -1,45 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> Lanka lift </title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
 
-        <div class="main">
-            <dev class="navbar">
-                <div class="icon">
-                    <img src="images/logo.png" alt="logo" class="logo">
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="contact.html">CONTACTS</a></li>
-                        <li><a href="vehicals.html">VEHICALS</a></li>
-                        <li><a href="servises.html">SERVISES</a></li>
-                        <div class="dropdown">
-                            <button class="dropbtn">LOGIN
-                              <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                              <a href="log_D.html">AS Driver</a>
-                              <a href="log_C.html">As Customer</a>
-                            </div>
-                          </div>
-                    </ul>
-                </div>   
-                <header>
-                    <h1>Drive Your Dreams With ~ Lanka Lift ~</h1><br>
-                </header>
-            </dev>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lanka Lift</title>
+
+  <!-- Fav icon -->
+  <link rel="icon" type="image/x-icon" href="images/fav icon.png">
+  <!-- Fav icon -->
+
+  <!-- Bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap Link -->
+
+
+  <!-- Font Awesome Cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- Font Awesome Cdn -->
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+
+  <!--CSS File-->
+  <link rel="stylesheet" href="index.css">
+  <!--CSS File-->
+
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="Logo" class="logo-image">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" aria-current="page" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="vehicals.html">Vehicals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="servises.html">Services</a>
+          </li>
+        </ul>
+        <div class="dropdown">
+          <button class="dropbtn">Login / Register</button>
+          <div class="dropdown-content">
+            <a href="#">Driver</a>
+            <a href="#">Rider</a>
+          </div>
         </div>
-        
-        <div class="container">
-            <!-- Your website content goes here -->
-    
-            <!-- Image in the right corner -->
-            <img src="images/hero_car.png" alt="Corner Image" class="corner-image">
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Hero Section Start -->
+  <div class="home">
+    <div class="content">
+      <h5>Welcome to Lanka Lift</h5>
+      <h1>Drive <span class="changecontent"></span></h1>
+      <p>"Seamless Journeys, Endless Adventures: Your Key to Long-Term Vehicle Freedom."</p>
+      <a href="#book">Trip request</a>
+    </div>
+  </div>
+  <!-- Hero Section End -->
+
+  <!-- Section Steps Start -->
+  <section class="Steps" id="Steps">
+    <div class="container">
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fa-solid fa-list-check"></i>
+            <div class="card-body">
+              <h3>Submit Trip Proposal</h3>
+              <p>Create trip request including required information</p>
+            </div>
+          </div>
+
         </div>
-    </body>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fa-solid fa-handshake"></i>
+            <div class="card-body">
+              <h3>Contact Your Driver</h3>
+              <p>Contact Your Driver With Your all Requirments</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fa-solid fa-taxi"></i>
+            <div class="card-body">
+              <h3>Get Vehicle Long term</h3>
+              <p>Relax and enjoy your Journey</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Section Steps End -->
+  <br><br>
+
+  <!-- Section Trip request Start -->
+  <section class="book" id="book">
+    <div class="container">
+
+      <div class="main-text">
+        <h1><span>Request </span>my car</h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="images/Home/home_car.png" alt="image">
+          </div>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <form id="regForm" action="#">
+            <!-- One "tab" for each step in the form: -->
+            <div class="tab">
+              <label for="select-option"> Pickup location </label>
+              <input type="text" class="form-control" placeholder="City" required><br>
+              <label for="select-option">Vehicle type </label>
+              <select id="select-option" name="select-option" required>
+                <option value="" disabled selected>- Select -</option>
+                <option value="option1">Car</option>
+                <option value="option2">Van</option>
+                <option value="option3">Bus</option>
+              </select><br><br>
+              <label> Number of days</label><br>
+              <input type="number" id="number" name="days" min="1" max="100" step="1" required><br><br>
+              <label> Select Pickup date</label><br>
+              <input type="date" id="meeting-date" name="meeting-date" required><br><br>
+              <label> Select Pickup time</label><br>
+              <input type="time" id="meeting-time" name="meeting-time" required><br><br>
+            </div>
+
+            <div class="tab">
+              <label> Visiting Places</label><br>
+              <textarea class="form-control" rows="3" name="text" placeholder="Places..."></textarea><br>
+              <label for="select-option"> Drop location </label><br>
+              <input type="text" class="form-control" placeholder="City" required><br>
+            </div>
+
+            <div style="overflow:auto;">
+              <div style="float:right;">
+                <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+              </div>
+            </div>
+
+            <!-- Circles which indicates the steps of the form: -->
+            <div style="text-align:center;margin-top:40px;">
+              <span class="step"></span>
+              <span class="step"></span>
+            </div>
+          </form>
+          </form>
+
+          <script>
+            var currentTab = 0; // Current tab is set to be the first tab (0)
+            showTab(currentTab); // Display the current tab
+
+            function showTab(n) {
+              // This function will display the specified tab of the form ...
+              var x = document.getElementsByClassName("tab");
+              x[n].style.display = "block";
+              // ... and fix the Previous/Next buttons:
+              if (n == 0) {
+                document.getElementById("prevBtn").style.display = "none";
+              } else {
+                document.getElementById("prevBtn").style.display = "inline";
+              }
+              if (n == (x.length - 1)) {
+                document.getElementById("nextBtn").innerHTML = "Submit";
+              } else {
+                document.getElementById("nextBtn").innerHTML = "Next";
+              }
+              // ... and run a function that displays the correct step indicator:
+              fixStepIndicator(n)
+            }
+
+            function nextPrev(n) {
+              // This function will figure out which tab to display
+              var x = document.getElementsByClassName("tab");
+              // Exit the function if any field in the current tab is invalid:
+              if (n == 1 && !validateForm()) return false;
+              // Hide the current tab:
+              x[currentTab].style.display = "none";
+              // Increase or decrease the current tab by 1:
+              currentTab = currentTab + n;
+              // if you have reached the end of the form... :
+              if (currentTab >= x.length) {
+                //...the form gets submitted:
+                document.getElementById("regForm").submit();
+                return false;
+              }
+              // Otherwise, display the correct tab:
+              showTab(currentTab);
+            }
+
+            function validateForm() {
+              // This function deals with validation of the form fields
+              var x, y, i, valid = true;
+              x = document.getElementsByClassName("tab");
+              y = x[currentTab].getElementsByTagName("input");
+              // A loop that checks every input field in the current tab:
+              for (i = 0; i < y.length; i++) {
+                // If a field is empty...
+                if (y[i].value == "") {
+                  // add an "invalid" class to the field:
+                  y[i].className += " invalid";
+                  // and set the current valid status to false:
+                  valid = false;
+                }
+              }
+              // If the valid status is true, mark the step as finished and valid:
+              if (valid) {
+                document.getElementsByClassName("step")[currentTab].className += " finish";
+              }
+              return valid; // return the valid status
+            }
+
+            function fixStepIndicator(n) {
+              // This function removes the "active" class of all steps...
+              var i, x = document.getElementsByClassName("step");
+              for (i = 0; i < x.length; i++) {
+                x[i].className = x[i].className.replace(" active", "");
+              }
+              //... and adds the "active" class to the current step:
+              x[n].className += " active";
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section Trip request End -->
+
+  <!-- About Start -->
+  <section class="about" id="about">
+    <div class="container">
+
+      <div class="row" style="margin-top: 50px;">
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="main-text">
+            <h1>What is <span>Lanka Lift</span></h1>
+          </div><br>
+          <p>There are many taxi-hailing services in Sri Lanka at the moment however there are no proper
+            services that connect people who have long-term vehicle requirements with vehicle-renting
+            individuals. We are going to focus on those people and connect them by using the platform. Our
+            solution could be helpful for foreigners to avoid inconvenient situations that they face when
+            finding a vehicle for rent. This service is not limited to foreigners, Sri Lankans also have such
+            transportation requirements for leisure and business-related activities, therefore they can also fulfil
+            their vehicle requirements using our system.</p>
+          <button id="about-btn">Read More...</button>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="images/Home/home_about.jpg" alt="image">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- About End -->
+
+  <!-- Section Vehicals Start -->
+  <section class="Steps" id="Vehicals">
+    <div class="container">
+      <div class="main-text">
+        <h1><span>Types </span>of vehicals</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fa-solid fa-car-side"></i>
+            <div class="card-body">
+              <h3>Standard Vehicles</h3>
+              <p>Ride your own comfort zone</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fa-solid fa-leaf"></i>
+            <div class="card-body">
+              <h3>Electric Vehicle</h3>
+              <p>Save our planet by using electric vehicals</p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fa-solid fa-car-on"></i>
+            <div class="card-body">
+              <h3>Luxury Vehicle</h3>
+              <p>Comfort, Style, Convenience and Safe ride</p>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+    </div>
+  </section>
+  <!-- Section Vehicals End -->
+
+  <!-- Section FAQ Start -->
+  <section class="faq" id="faq">
+    <div class="main-text">
+      <h1><span>FAQ </span>questions</h1>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            How do I make a reservation for a vehicle?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">To make a reservation, simply visit our website or mobile app. Select your desired
+            pickup and drop-off locations, choose the vehicle type, specify the rental dates and times, and proceed to
+            confirm your booking. You can also contact our customer service for assistance in making a reservation.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            What documents do I need to rent a vehicle?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">To rent a vehicle, you typically need a valid driver's license, a major credit
+            card in your name, and proof of insurance. The driver's license must be current and meet the minimum age
+            requirements for the specific vehicle class. Additionally, some locations may require additional
+            identification or documentation, so it's advisable to check the specific requirements for your rental
+            location.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Can I modify or cancel my reservation?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Yes, you can modify or cancel your reservation online or by contacting our
+            customer service. Keep in mind that modifications may be subject to availability and may impact the rental
+            rate. There might be specific terms and conditions associated with cancellations, so we recommend reviewing
+            our cancellation policy or contacting our customer service for assistance.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            What happens in case of an accident or breakdown during the rental period?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">In the event of an accident, first, ensure the safety of all parties involved.
+            Contact local authorities and then inform our customer service as soon as possible. For breakdowns or
+            mechanical issues, reach out to our roadside assistance hotline, provided in your rental agreement. We have
+            a network of service providers to assist you. Always refer to the rental agreement for specific procedures
+            and contact details in case of emergencies.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section FAQ End -->
+
+  <!-- Footer Start -->
+  <footer id="footer">
+    <h1><span>Drive </span>long</h1>
+    <p>"Seamless Journeys, Endless Adventures: Your Key to Long-Term Vehicle Freedom."</p>
+    <div class="social-links">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+    <div class="credit">
+      <p>Designed By <a href="#">Group A-12</a></p>
+    </div>
+    <div class="copyright">
+      <p>&copy;Copyright Computing Group Project. All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
