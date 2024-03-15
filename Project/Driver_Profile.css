@@ -27,6 +27,41 @@ body {
   color: rgb(49, 121, 255);
 }
 
+/* Log out button */
+.navbar-nav.ms-auto {
+  background-color: rgb(49, 121, 255);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 540;
+  padding: 4px 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: 0.6s background-color;
+}
+
+.navbar-nav.ms-auto:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.navbar-nav.ms-auto .nav-item {
+  margin-left: 10px; /* Adjust the spacing as needed */
+}
+
+.navbar-nav.ms-auto .nav-link {
+  color: #ffffff; /* Change text color */
+  font-weight: bold; /* Add bold font weight */
+  text-transform: uppercase; /* Convert text to uppercase */
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.navbar-nav.ms-auto .nav-link:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.6s; /* Change text color on hover */
+}
+/* /Log out button */
+
+
 /* Navbar End */
 
 /* Body start */
