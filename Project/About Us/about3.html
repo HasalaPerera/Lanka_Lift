@@ -1,0 +1,445 @@
+<html>
+    <head>
+        <title>About Us</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0   ;
+            padding: 0;
+            background-color: Silver;
+        }
+        .container {
+                display: flex;
+                font-size: 120%;
+                font-weight: 50%;
+                font-weight: bold;
+                font: optional;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+        .box {
+                flex: 1;
+                margin: 15px;
+                padding: 35px;
+                
+            }
+        .About_Us{
+                font-size: 20px;
+                font-weight: 200;
+                position: absolute; 
+                top: -20px; 
+                left: 50%; 
+                transform: translateX(-50%); 
+                text-align: center;
+                white-space: nowrap;
+            }
+
+        .About_Us{
+            width: 80%;
+            margin: 20;
+        }
+
+        .about-section {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 50px;
+        }
+
+        .image-box {
+            position: relative;
+            clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+        }
+
+        .image-box img {
+            max-width: 650px;
+            max-height: 400px;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+
+        .description {
+            max-width: 600px;
+            text-align: justify;
+            padding: 40px;
+            background-color: DimGray;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(4, 3, 3, 0.5);
+            color: #ffffff;
+        }
+
+        
+        .about-section1 {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 30px;
+        }
+
+        .description1 {
+            max-width: 600px;
+            text-align: justify;
+            padding: 40px;
+            background-color: DimGray;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(4, 3, 3, 0.5);
+            color: #ffffff;
+        }
+
+        .image-box1 {
+            position: relative;
+            clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+        }
+
+        .image-box1 img {
+            max-width: 540px;
+            max-height: 360px;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .container5 {
+            text-align: center;
+       }
+
+        .header {
+            padding-top: 30px;
+            color: #4c2e2e;
+            font-size: 20px;
+            margin: auto;
+            line-height: 50px;
+        }
+
+        .sub-container5 {
+            max-width: 1200px;
+            margin: auto;
+            padding: 30px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .container4 {
+            position: relative;
+            width: 1320px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 75px;
+        }
+
+        .container4 .card {
+            position: relative;
+            max-width: 300px;
+            height: 215px;
+            background: DarkSlateGray;
+            margin: 30px 30px;
+            padding: 30px 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            transition: 0.3s ease-in-out;
+        }
+        .container4 .card:hover {
+            height: 420px;
+        }
+
+        .container4 .card .imgBx {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -60px;
+            left: 20px;
+            z-index: 1;
+            box-shadow: 0 5px 20px rgba(206, 16, 16, 0.2);
+        }
+
+        .container4 .card .imgBx img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .container4 .card .content4 {
+            position: relative;
+            margin-top: -140px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #ffffff;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+
+        .container4 .card:hover .content4 {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -40px;
+            transition-delay: 0.3s; 
+        }
+
+
+
+
+.teams {
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+.teams:hover {
+    background: #a49999;
+    border-radius: 12px;
+}
+
+.teams img {
+    width: 215px;
+    height: 220px;
+    object-fit:cover;
+    object-position:50% 25%;
+    border-radius: 50%;
+}
+
+.name {
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.desig {
+    font-style: italic;
+    color: #ed3b13;
+}
+
+.about {
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #000000;
+}
+
+.social-links {
+    margin: 14px;
+}
+
+.social-links a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: .4s;
+}
+
+.social-links a:hover {
+    transform: scale(1.5);
+}
+
+.social-links a i {
+    color: #804848;
+}
+
+@media screen and (max-width: 600px) {
+    .teams {
+        max-width: 100%;
+    }
+}
+    </style>
+    </head>
+        <div class="welcome-img">
+            <img src="Untitled-1.png" alt="Welcome" width="1517" height="450" >
+               <div class="About_Us">
+                  <h1>About Us</h1>
+               </div>
+        </div>
+    
+        <div class="welcome-cont">
+            <div class="about-section">
+                <div class="image-box">
+                    <img src="gg.jpg" alt="Company Image">
+                </div>
+                <div class="description">
+                    <h2>Company Overview</h2>
+                    <p>Established in 2023, Lanka lift was born in the digital age, created by students who understand the importance of 
+                       convenience and efficiency. We bring a youthful spirit to the world of car rentals, infusing modern technology into every part 
+                       of your journey..</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box"><svg width="395" height="130" xmlns="http://www.w3.org/2000/svg"> 
+                   <rect width="350" height="100" x="10" y="10" rx="20" ry="20" fill="#F2F4F4" />
+                      <rect width="70" height="65" x="28" y="28" fill="Gray" />
+                      <image xlink:href="car_rental.png" x="38" y="38" width="50" height="50" />
+                    <text x="120" y="65" fill="black">24/7 Car Rental support</text>
+         
+        </svg></div>
+        
+                <div class="box"><svg width="395" height="130" xmlns="http://www.w3.org/2000/svg"> 
+                   <rect width="350" height="100" x="10" y="10" rx="20" ry="20" fill="#F4F6F6" />
+                   <rect width="70" height="65" x="28" y="28" fill="Gray" />
+                   <image xlink:href="car_reservation.png" x="38" y="38" width="50" height="50" />
+                   <text x="230" y="65" fill="black" text-anchor="middle">Car reservation anytime</text>
+         
+        </svg></div>
+        
+                <div class="box"><svg width="395" height="130" xmlns="http://www.w3.org/2000/svg"> 
+                   <rect width="350" height="100" x="10" y="10" rx="20" ry="20" fill="#F2F4F4" />
+                   <rect width="70" height="65" x="28" y="28" fill="Gray" />
+                   <image xlink:href="technical_support.png" x="38" y="38" width="50" height="50" />
+                   <text x="120" y="65" fill="black">Support: Anytime</text>
+         
+        </svg></div>
+            </div>
+
+            <div class="about-section1">
+                <div class="description1">
+                    <h2>Our History</h2>
+                    <p>Our story starts with a shared enthusiasm for travel and the recognition of the challenges individuals face when it comes to 
+                        renting a car. Fuelled by this realization, our team came together, pooling our diverse skills and perspectives to establish 
+                        Lanka Lift Company...</p>
+                </div>
+                <div class="image-box1">
+                    <img src="ff.jpg" alt="Company Image">
+                </div>
+            </div>
+
+            <div class="container4">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="cc.jpg" alt="">
+                    </div>
+                    <div class="content4">
+                        <h2>Mission</h2>
+                        <p>At Lanka Lift, our mission is to empower individuals with the freedom to explore and experience the world by providing 
+                            reliable, convenient, and affordable car rental services. We are dedicated to facilitating seamless journeys, ensuring that our 
+                            customers can focus on creating memories while we take care of their transportation needs.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="bb.jpg" alt="">
+                    </div>
+                    <div class="content4">
+                        <h2>Fleet Information</h2>
+                        <p>At Lanka Lift, our mission is to empower individuals with the freedom to explore and experience the world by providing 
+                            reliable, convenient, and affordable car rental services. We are dedicated to facilitating seamless journeys, ensuring that our 
+                            customers can focus on creating memories while we take care of their transportation needs.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="kk.jpg" alt="">
+                    </div>
+                    <div class="content4">
+                        <h2>Safety and Security</h2>
+                        <p>At Lanka Lift, your safety and security are our top priorities. We understand the importance of providing a secure environment, 
+                            both in the vehicles we offer and throughout the entire rental process. Lanka Lift is here to make your journey memorable. 
+                            Explore the world with us!
+                            Thank you for choosing Lanka Lift...</p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container5">
+            <div class="header">
+                <h1>Our Team</h1>
+            </div>
+            <div class="sub-container5">
+                <div class="teams">
+                    <img src="svg/profile1.svg" height="100px" alt="">
+                    <div class="name">pasan</div>
+                    <div class="desig">Designer</div>
+                    <div class="about">I am good student and I like to learn new things.programming language  is my passion.</div>
+    
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+    
+                <div class="teams">
+                    <img src="svg/profile2.svg" alt="">
+                    <div class="name">Hasala </div>
+                    <div class="desig">Designer</div>
+                    <div class="about">I am good student and I like to learn new things.programming language  is my passion.</div>
+    
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+    
+                <div class="teams">
+                    <img src="svg/profile3.svg" alt="">
+                    <div class="name">Tharindi </div>
+                    <div class="desig">Manager</div>
+                    <div class="about">I am good student and I like to learn new things.programming language  is my passion.</div>
+    
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+    
+                <div class="teams">
+                    <img src="svg/profile3.svg" alt="">
+                    <div class="name">bashana </div>
+                    <div class="desig">Manager</div>
+                    <div class="about">I am good student and I like to learn new things.programming language  is my passion.</div>
+    
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+    
+                <div class="teams">
+                    <img src="svg/profile3.svg" alt="">
+                    <div class="name">Manuja </div>
+                    <div class="desig">Manager</div>
+                    <div class="about">I am good student and I like to learn new things.programming language  is my passion.</div>
+    
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+    
+                <div class="teams">
+                    <img src="chathumina.jpg" alt="" width="764" height="1024">
+                    <div class="name">chathumina </div>
+                    <div class="desig">Manager</div>
+                    <div class="about">I am good student and I like to learn new things.programming language  is my passion.</div>
+    
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/chathuminalyg?igsh=MWlic2VybjVmc3gzOA=="><i class="fa fa-instagram"></i></a>
+                        <a href="https://twitter.com/chathuminalyg"><i class="fa fa-twitter"></i></a>
+                        <a href="https://github.com/lpchathumina"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html> 
