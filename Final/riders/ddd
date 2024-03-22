@@ -1,0 +1,59 @@
+<?php
+
+
+
+    $server= "localhost";
+	$user= "root";
+	$pw = "";
+	$db = "ll";
+	
+	$conn= new mysqli($server, $user, $pw, $db);
+	
+	
+	if($conn->connect_error)
+	{
+		
+		die("Connection failed: " . $conn->connect_error);
+	}
+	else
+	{
+		
+		
+	}
+
+$city = $_REQUEST["city"];
+$plocation = $_REQUEST["plocation"];
+$cat = $_REQUEST["cat"];
+$days = $_REQUEST["days"];
+$pdate = $_REQUEST["pdate"];
+$ptime = $_REQUEST["ptime"];
+$places = $_REQUEST["places"];
+$ins = $_REQUEST["ins"];
+$droplocation = $_REQUEST["droplocation"];
+$id = $_REQUEST["id"];
+
+
+
+
+        $sql = "insert into trips (city,pickup,vehicleType,days,pickuDdate,pickupTime,visitingPlaces,specialInstructions,dropLocation,riderId,tripStatus) values('$city','$plocation','$cat','$days','$pdate', '$ptime','$places','$ins','$droplocation','$id', 0)";
+		
+if($conn->query($sql) == TRUE)
+	{
+		
+		header("Location: riders-dashboard.php");
+	}
+	else
+	{
+		
+		echo "failed";
+	}
+
+       
+
+	
+	
+	
+
+
+
+?>
