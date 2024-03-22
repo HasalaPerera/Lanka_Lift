@@ -36,7 +36,7 @@
   text-align: left;
   z-index: 999;
   padding: 30px 40px;
-  background: rgba(255, 255, 255, 0.4);
+  background: white;
   box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
   width: 50%;
   height: 625px;
@@ -54,15 +54,21 @@
   float: left;
   width: 50%;
   height: 550px;
-  background: url(driver_sign_up_left_side.jpg);
   background-size: cover;
   box-sizing: border-box;
 }
 
+.d_form .left .about .card2 img {
+  width: 300px;
+  height: 300px;
+  padding-top: 10%;
+}
+
 
   h1 {
+    color: rgb(28, 136, 208);
     text-align: center;
-    color: black;
+    
   }
 
   p {
@@ -76,8 +82,8 @@
     padding: 10px;
     margin: 0px 0 15px 0;
     display: inline-block;
+    background: rgba(188, 211, 226, 0.84);
     border-color: #060606;
-    background: white;
     border: 2px solid rgba(4, 4, 4, 0.941);
     border-radius: 12px;
   }
@@ -93,7 +99,7 @@
   }
 
   button {
-    background-color: #9293c8;
+    background-color: rgb(49, 173, 255);
     color: #060606;
     border: 10px;
     border-color: #060606;
@@ -101,11 +107,13 @@
     font-size: 17px;
     font-family: Raleway;
     cursor: pointer;
+    border-radius: 20%;
   }
 
   #prevBtn {
-    background-color: #9293c8;
+    background-color:rgb(49, 173, 255);
     border-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20%;
   }
 
 

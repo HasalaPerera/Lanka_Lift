@@ -35,7 +35,7 @@
     text-align: left;
     z-index: 999;
     padding: 30px 40px;
-    background: rgba(255, 255, 255, 0.4);
+    background: white;
     box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
     width: 50%;
     height: 500px;
@@ -46,10 +46,15 @@
 	float: left;
     width: 50%;
     height: 450px;
-    background: url(rider_login_bg.jpg);
     background-size: cover;
     box-sizing: border-box;
     border-radius: 30px;
+}
+
+.main .left .about .card2 img {
+    width: 300px;
+    height: 350px;
+    padding-top: 20%;
 }
 
 .main .right{
@@ -60,6 +65,7 @@
 }
 
 h1 { 
+    color: rgb(28, 136, 208);
 	text-align: center;
     padding: 0;
     margin: 0;
@@ -87,10 +93,11 @@ input {
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
-    border: 12px;
-    background: white;
+    background: rgba(188, 211, 226, 0.84);
     border-radius: 12px;
 	box-shadow: 40px; 
+    border-color: #060606;
+    border: 2px solid rgba(4, 4, 4, 0.941);
 } 
 
 input.invalid {
@@ -114,6 +121,6 @@ button {
 	font-weight: bold;
 } 
 button:hover {
-    background-color: rgb(145, 127, 209);
+    background-color: rgb(49, 173, 255);
     border-color: rgba(0, 0, 0, 0.4);
 }
