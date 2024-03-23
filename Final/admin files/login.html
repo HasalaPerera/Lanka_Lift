@@ -1,0 +1,47 @@
+<html>
+
+<head>
+	<title>Admin Login</title>
+	<link rel="stylesheet" href="rider_login.css">
+</head>
+
+<body>
+	<!--background image-->
+	<div class="bg-image">
+
+		<!--form start-->
+		<div class="main">
+
+			<div class="left"></div>
+
+			<div class="right">
+				<h1>Admin Login</h1><br>
+				<p>Enter your login credentials</p><br>
+
+				<form action="riderslogin.php" method="post">
+					<label for="first">
+						Email:
+					</label>
+					<input type="text" id="first" name="email" placeholder="Enter your email" required>
+
+					<label for="password">
+						Password:
+					</label>
+					<input type="password" id="password" name="psw" placeholder="Enter your Password" required>
+
+					<!--button-->
+					<div class="button">
+						<button type="submit" onclick="solve()">
+							Login
+						</button>
+					</div>
+
+				</form>
+
+			
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
