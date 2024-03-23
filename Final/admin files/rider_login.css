@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/*background image */
+.bg-image {
+    background: url('rider_login_bg.jpg') no-repeat center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.bg-image::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+/*background image end*/
+
+
+/*form*/
+.main { 
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    z-index: 999;
+    padding: 30px 40px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+    width: 50%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.main .left{
+	float: left;
+    width: 50%;
+    height: 450px;
+    background: url(rider_login_bg.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.main .right{
+	float: right;
+    width: 45%;
+    height: 550px;
+    box-sizing: border-box;
+}
+
+h1 { 
+	text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 48px; 
+}
+
+p{
+    text-align: center;
+}
+
+label { 
+	display: block; 
+	width: 100%; 
+	margin-top: 10px; 
+	margin-bottom: 5px; 
+	text-align: left; 
+	color: rgb(1, 1, 1); 
+	font-weight: bold; 
+} 
+
+
+input { 
+	width: 100%;
+    height: 40px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 12px;
+    background: white;
+    border-radius: 12px;
+	box-shadow: 40px; 
+} 
+
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/*login button*/
+button { 
+	padding: 15px; 
+	border-radius: 10px; 
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+	border: none; 
+	color: black; 
+	cursor: pointer; 
+	background-color: transparent; 
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-color: black;
+	width: 100%; 
+	font-size: 25px; 
+	font-weight: bold;
+} 
+button:hover {
+    background-color: rgb(145, 127, 209);
+    border-color: rgba(0, 0, 0, 0.4);
+}
