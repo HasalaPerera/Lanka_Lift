@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navbar Start */
+#navbar {
+    background: #b0defd;
+    height: auto;
+}
+
+.logo-image {
+    width: 220px;
+    height: auto;
+}
+
+.nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+.navbar li {
+    margin-right: 50px;
+    /* space between links */
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: rgb(49, 121, 255);
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #b0defd;
+    color: black;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 8px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b0defd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 12px;
+    font-weight: 550;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(49, 121, 255);
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(49, 121, 255);
+}
+
+/* Navbar End */
+
+.About_Us {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-size: large;
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+}
+
+.About_Us h1 span {
+    color: #36d6f3;
+}
+
+.container {
+    display: flex;
+    font-size: 120%;
+    font-weight: 50%;
+    font-weight: bold;
+    font: optional;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    flex: 1;
+    margin: 15px;
+    padding: 35px;
+
+}
+
+.About_Us {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.about-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.image-box {
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+}
+
+.image-box img {
+    max-width: 650px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.description {
+    max-width: 600px;
+    text-align: justify;
+    padding: 40px;
+    background-color: DimGray;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(4, 3, 3, 0.5);
+    color: #ffffff;
+}
+
+
+.about-section1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.description1 {
+    max-width: 600px;
+    text-align: justify;
+    padding: 40px;
+    background-color: DimGray;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(4, 3, 3, 0.5);
+    color: #ffffff;
+}
+
+.image-box1 {
+    position: relative;
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.image-box1 img {
+    max-width: 540px;
+    max-height: 360px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.container5 {
+    text-align: center;
+}
+
+.header {
+    padding-top: 30px;
+    color: #000000;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+    font-weight: bold;
+    font: optional;
+    font-family: Arial, sans-serif;
+}
+
+.sub-container5 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container4 {
+    position: relative;
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 75px;
+}
+
+.container4 .card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: DarkSlateGray;
+    margin: 30px 30px;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.container4 .card:hover {
+    height: 420px;
+}
+
+.container4 .card .imgBx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px #36d6f3;
+}
+
+.container4 .card .imgBx img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.container4 .card .content4 {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container4 .card:hover .content4 {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+
+
+
+.teams {
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+.teams:hover {
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+.teams img {
+    width: 215px;
+    height: 220px;
+    object-fit: cover;
+    object-position: 50% 25%;
+    border-radius: 50%;
+}
+
+.name {
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.desig {
+    font-style: italic;
+    color: #054b73;
+}
+
+.about {
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #000000;
+}
+
+
+@media screen and (max-width: 600px) {
+    .teams {
+        max-width: 100%;
+    }
+}
+
+
+
+/* Footer Start */
+#footer {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+#footer h1 {
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+
+#footer h1 span {
+    color: #36d6f3;
+}
+
+.social-links i {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-links i:hover {
+    background: #36d6f3;
+}
+
+/* Footer End */
