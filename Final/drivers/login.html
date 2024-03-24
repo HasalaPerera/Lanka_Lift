@@ -1,0 +1,49 @@
+<html>
+
+<head>
+	<title>Driver Login</title>
+	<link rel="stylesheet" href="driver_login.css">
+</head>
+
+<body>
+
+	<!--background image-->
+	<div class="bg-image">
+
+		<!--form start-->
+		<div class="main">
+
+			<div class="left"></div>
+			<div class="right">
+				<h1><b>Driver Login</b></h1><br>
+				<p>Enter your login credentials</p><br>
+
+				<form action="driverslogin.php" method="post">
+					<label for="first">
+						Email:
+					</label>
+					<input type="email" id="first" name="email" placeholder="Enter your Email" required>
+
+					<label for="password">
+						Password:
+					</label>
+					<input type="password" id="password" name="psw" placeholder="Enter your Password" required>
+
+					<div class="wrap">
+						<button type="submit" onclick="solve()">
+							<b>Login</b>
+						</button>
+					</div>
+				</form>
+				<!--form end-->
+				<p>Not registered?
+					<a href="signup.html" style="text-decoration-color: black;">
+						Sign up
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
